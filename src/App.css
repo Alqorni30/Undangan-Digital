@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Handlee', cursive;
+}
+.font-primary{
+    font-family: 'Poppins', sans-serif;
+}
+.font-secondary{
+    font-family: 'Berkshire Swash', serif;
+}
