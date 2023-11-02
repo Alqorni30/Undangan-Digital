@@ -23,16 +23,16 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({
   }, [isMusicPlaying]);
 
   return (
-    <div className="z-10 bottom-4 right-4 fixed ">
+    <div className="">
       <audio ref={audioRef} src={weddingMusic}></audio>
       <button
         onClick={toggleMusic}
-        className="text-white bg-gray-800 p-6 rounded-full "
+        className="text-white bg-gray-800 p-5 rounded-full z-10 fixed bottom-4 right-4 w-auto"
       >
         {isMusicPlaying ? (
-          <GiMusicalNotes size={24} className="transform animate-spin"/>
+          <GiMusicalNotes size={24} />
         ) : (
-          <MdMusicOff size={24} className="transform animate-spin"/>
+          <MdMusicOff size={24} />
         )}
       </button>
     </div>
