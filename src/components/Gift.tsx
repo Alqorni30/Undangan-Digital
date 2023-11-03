@@ -18,7 +18,7 @@ const Gift: React.FC = () => {
             <h3 className="text-5xl font-secondary mb-4">Gift Love</h3>
             <p className="text-lg mb-8 p-4">Doa Restu Anda merupakan karunia yang sangat berarti bagi kami.<br/> Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi kado secara cashless.</p>
         </div>
-        <div className="max-w-md mx-auto bg-white shadow-md rounded-lg my-6">
+        <div className="max-w-md mx-auto bg-white shadow-md overflow-hidden rounded-lg my-6">
           <h1 className="text-lg px-4 bg-gray-700 font-semibold text-white font-primary">
             Nomor Rekening
           </h1>

@@ -1,4 +1,4 @@
-import './App.css'
+import './App.css';
 import Gallery from './components/Gallery'
 import Gift from './components/Gift'
 import Header from './components/Header'
@@ -21,6 +21,7 @@ function App() {
       <Gallery/>
       <Gift/>
       <Komentar/>
+      
     </>
   )
 }
