@@ -53,7 +53,7 @@ const Header: React.FC = () => {
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
           <p className="text-xl font-semibold tracking-wider">The Wedding of</p>
 
-          <h1 className="lg:text-5xl text-3xl font-bold font-secondary my-4 tracking-wider">
+          <h1 className="lg:text-5xl text-2xl font-bold font-secondary my-4 tracking-wider">
             Nan-do & So-yeon
           </h1>
           <p className="text-xl font-semibold font-secondary tracking-wider">
