@@ -1,4 +1,12 @@
-const MainEvent = () => {
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+const MainEvent: React.FC = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
       <div className="py-5 bg-gray-200">
@@ -6,7 +14,11 @@ const MainEvent = () => {
           Informasi Acara
         </h2>
         <div className="flex flex-wrap justify-around items-center p-8 gap-6">
-          <div className="leading-8 border border-gray-800 rounded-lg p-4">
+          <div
+            className="leading-8 border bg-slate-500 text-white rounded-lg p-4"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
             <h3 className="font-secondary font-bold text-2xl text-center mt-4">
               Akad Nikah
             </h3>
@@ -20,12 +32,16 @@ const MainEvent = () => {
               Jl.Gunung sejati no.120, Konoha
             </p>
             <div className="flex justify-center items-center ">
-              <button className="font-semibold font-primary border border-gray-700 hover:bg-gray-700 hover:text-white py-2 px-4">
+              <button className="font-semibold font-primary border bg-gray-700 hover:bg-gray-300 hover:text-black py-2 px-4 transition duration-300 rounded-lg">
                 View Map
               </button>
             </div>
           </div>
-          <div className="leading-8 border border-gray-800 rounded-lg p-4">
+          <div
+            className="leading-8 border bg-slate-500 text-white rounded-lg p-4"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          >
             <h3 className="font-secondary font-bold text-2xl text-center mt-4">
               Resepsi
             </h3>
@@ -39,7 +55,7 @@ const MainEvent = () => {
               Jl.Mawar gang em no.190, Konoha
             </p>
             <div className="flex justify-center items-center ">
-              <button className="font-semibold font-primary border border-gray-700 hover:bg-gray-700 hover:text-white py-2 px-4">
+              <button className="font-semibold font-primary border bg-gray-700 hover:bg-gray-300 hover:text-black py-2 px-4 transition duration-300 rounded-lg">
                 View Map
               </button>
             </div>

@@ -39,7 +39,7 @@ const Gift: React.FC = () => {
               </button>
             </div>
             <div className="mt-2">
-              <p className="text-lg font-semibold font-primary">Vinn</p>
+              <p className="text-lg font-semibold font-primary">Itachi</p>
             </div>
           </div>
         </div>
