@@ -13,11 +13,12 @@ const Maps: React.FC = () => {
             width="500"
             height="400"
             loading="lazy"
+            className="lg:w-[600px] lg:h-[400px] md:w-[500px] md:h-[300px] w-[300px] h-[200px] rounded-xl"
           ></iframe>
-          <h3 className="text-3xl mt-3 font-semibold font-secondary text-center text-white mb-4">
+          <h3 className="lg:text-3xl text-xl mt-3 font-medium font-secondary text-center text-white ">
             Kediaman Mempelai
           </h3>
-          <p className="text-lg font-semibold text-center text-white">Jalan Pondok Hokage Blok M No 20, Konoha tengah</p>
+          <p className="text-lg font-medium text-center text-white">Jalan Pondok Hokage Blok M No 20, Konoha tengah</p>
         </div>
       </div>
     </div>
