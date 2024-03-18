@@ -39,7 +39,7 @@ const MainEvent: React.FC = () => {
           </div>
           <div
             className="leading-8 border bg-slate-500 text-white rounded-lg p-4"
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-duration="1500"
           >
             <h3 className="font-secondary font-bold text-2xl text-center mt-4">
